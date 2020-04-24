@@ -1,4 +1,6 @@
 #!/bin/sh
+cd "$(dirname "$0")"
+
 docker-compose up &
 
 mongo_docker_ready() {
