@@ -9,4 +9,4 @@ while !(mongo_docker_ready); do
     sleep 1
 done
 
-echo "Mongo docker is ready"
+echo "\xE2\x9C\x94 Mongo docker is ready"
